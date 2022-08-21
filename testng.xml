@@ -2,9 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="RegressionSuite"  verbose="4">
 
- <listeners>
-		<listener class-name="com.harish.pagobject.Listeners" />
-  </listeners>
 
   <test name="Test - CarHomeEMI">
     <classes>
